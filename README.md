@@ -10,15 +10,15 @@ Aprendendo o básico para criar um Simples CRUD em NodeJS utilizando knex com ba
 
 ## Instalação
 
-Linux:
+Linux:Dentro do diretório NodeJS Sqlite/backend
 
 ```sh
-npm install 
+yarn install 
 ```
 
 ## Configuração para Desenvolvimento
 
-Descreva como instalar todas as dependências para desenvolvimento e como rodar um test-suite automatizado de algum tipo. Se necessário, faça isso para múltiplas plataformas.
+Executar o abaixo comando para rodar o projeto.
 
 ```sh
 yarn dev
