@@ -1,13 +1,13 @@
 # Estudando o Básico de NodeJS e Knex + Sqlite3
 > Simples CRUD com Knex+Sqlite3.
 
-[![NPM Version][npm-image]][npm-url]
+[![NodeJS Version][node-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 [![Downloads Stats][npm-downloads]][npm-url]
 
 Aprendendo o básico para criar um Simples CRUD em NodeJS utilizando knex com banco sqlite3.
 
-![](../readme.png)
+![](./readme.png)
 
 ## Instalação
 
@@ -38,7 +38,7 @@ William Ribeiro – [@WilliamRibeiro](https://www.linkedin.com/in/william-ribeir
 4. _Push_ (`git push origin feature/fooBar`)
 5. Crie um novo _Pull Request_
 
-[npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
+[node-image]:https://img.shields.io/badge/NodeJS-V12.16.3-green
 [npm-url]: https://npmjs.org/package/datadog-metrics
 [npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
 [travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
