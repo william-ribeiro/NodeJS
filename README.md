@@ -1,7 +1,7 @@
 # Estudando o Básico de NodeJS e Knex + Sqlite3
 > Simples CRUD com Knex+Sqlite3.
 
-[![NODE Version][node-image]][npm-url]
+[![NODE Version][node-image]][node-url]
 [![Build Status][travis-image]][travis-url]
 [![Downloads Stats][npm-downloads]][npm-url]
 
