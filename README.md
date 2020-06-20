@@ -1,6 +1,7 @@
 # Estudando o Básico de NodeJS e Knex + Sqlite3
 > Simples CRUD com Knex+Sqlite3.
 
+[![NPM Version][npm-image]][npm-url]
 [![NODE Version][node-image]][node-url]
 [![KNEX Version][knex-image]][knex-url]
 
@@ -37,6 +38,8 @@ William Ribeiro – [@WilliamRibeiro](https://www.linkedin.com/in/william-ribeir
 4. _Push_ (`git push origin feature/fooBar`)
 5. Crie um novo _Pull Request_
 
+[npm-image]:https://img.shields.io/badge/NPM-V6.14.5-brightgreen
+[npm-url]: https://www.npmjs.com/package/npm
 [node-image]:https://img.shields.io/badge/NodeJS-V12.16.3-green
 [node-url]: https://nodejs.org/docs/latest-v12.x/api/
 [knex-image]:https://img.shields.io/badge/Knex-V0.21.1-orange
