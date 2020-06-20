@@ -2,7 +2,7 @@
 > Simples CRUD com Knex+Sqlite3.
 
 [![NODE Version][node-image]][node-url]
-[![Downloads Stats][node-downloads]][node-url]
+[![KNEX Version][knex-image]][knex-url]
 
 Aprendendo o básico para criar um Simples CRUD em NodeJS utilizando knex com banco sqlite3.
 
@@ -39,5 +39,6 @@ William Ribeiro – [@WilliamRibeiro](https://www.linkedin.com/in/william-ribeir
 
 [node-image]:https://img.shields.io/badge/NodeJS-V12.16.3-green
 [node-url]: https://nodejs.org/docs/latest-v12.x/api/
-[node-downloads]: https://nodejs.org/en/download/
+[knex-image]:https://img.shields.io/badge/Knex-V0.21.1-orange
+[knex-url]: http://knexjs.org/
 
