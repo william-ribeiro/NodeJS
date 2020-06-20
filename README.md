@@ -1,7 +1,7 @@
 # Estudando o Básico de NodeJS e Knex + Sqlite3
 > Simples CRUD com Knex+Sqlite3.
 
-[![NodeJS Version][node-image]][npm-url]
+[![NODE Version][node-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 [![Downloads Stats][npm-downloads]][npm-url]
 
@@ -39,8 +39,8 @@ William Ribeiro – [@WilliamRibeiro](https://www.linkedin.com/in/william-ribeir
 5. Crie um novo _Pull Request_
 
 [node-image]:https://img.shields.io/badge/NodeJS-V12.16.3-green
-[npm-url]: https://npmjs.org/package/datadog-metrics
-[npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
+[node-url]: https://nodejs.org/docs/latest-v12.x/api/
+[node-downloads]: https://nodejs.org/en/download/
 [travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
 [travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
 [wiki]: https://github.com/seunome/seuprojeto/wiki
