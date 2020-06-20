@@ -18,7 +18,7 @@ yarn install
 
 ## Configuração para Desenvolvimento
 
-Executar o abaixo comando para rodar o projeto.
+Executar o comando abaixo para rodar o projeto.
 
 ```sh
 yarn dev
