@@ -40,8 +40,8 @@ William Ribeiro – [@WilliamRibeiro](https://www.linkedin.com/in/william-ribeir
 
 [npm-image]:https://img.shields.io/badge/NPM-V6.14.5-brightgreen
 [npm-url]: https://www.npmjs.com/package/npm
-[node-image]:https://img.shields.io/badge/NodeJS-V12.16.3-green
+[node-image]:https://img.shields.io/badge/NODE-V12.16.3-green
 [node-url]: https://nodejs.org/docs/latest-v12.x/api/
-[knex-image]:https://img.shields.io/badge/Knex-V0.21.1-orange
+[knex-image]:https://img.shields.io/badge/KNEX-V0.21.1-orange
 [knex-url]: http://knexjs.org/
 
