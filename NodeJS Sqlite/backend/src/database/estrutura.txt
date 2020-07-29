@@ -1,0 +1,23 @@
+DB
+
+-> Produtos
+  -> id_Produto
+  -> Nome
+  -> id_marca
+  -> id_UndMedida
+
+-> Marca
+  -> id_Marca
+  -> Nome
+
+-> UndMedida
+  -> id_UndMedida
+  -> Nome
+
+-> Clientes
+  -> id_Cliente
+  -> Nome
+
+-> Vendas  
+-> Entrada
+-> Estoque

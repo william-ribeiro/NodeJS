@@ -1,12 +1,12 @@
 import express from 'express';
-import UsersControllers from './controllers/userscontroller'
+import MarcaControllers from './controllers/marcaControllers'
 
 const routes=express.Router()
-const usercontroller=new UsersControllers
+const marcacontroller=new MarcaControllers
 
-routes.get('/',usercontroller.index);
-routes.post('/',usercontroller.create);
-routes.delete('/:id',usercontroller.delete);
-routes.put('/:id',usercontroller.edit);
+routes.get('/',marcacontroller.index);
+routes.post('/',marcacontroller.create);
+routes.delete('/:id_Marca',marcacontroller.delete);
+routes.put('/:id_Marca',marcacontroller.edit);
 
 export default routes
