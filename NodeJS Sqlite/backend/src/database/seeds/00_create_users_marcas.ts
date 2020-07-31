@@ -2,8 +2,8 @@ import Knex from 'knex';
 
 export async function seed(knex:Knex){
   return knex('marcas').insert([
-    {nome:'Cisco'},
-    {nome:'Dell'},
-    {nome:'HP'}
+    {n_marca:'Cisco'},
+    {n_marca:'Dell'},
+    {n_marca:'HP'}
   ])
 }

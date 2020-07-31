@@ -8,10 +8,10 @@ class marcaController{
   }
 
   async create(request:Request, response:Response){
-    const {nome}=request.body
-    const [id_Marca]=await knex('marcas').insert({nome});
+    const {n_marca}=request.body
+    const [id_Marca]=await knex('marcas').insert({n_marca});
 
-    return response.json({id_Marca,nome})
+    return response.json({id_Marca,n_marca})
   }
 
   async delete(request:Request, response:Response){
@@ -25,15 +25,15 @@ class marcaController{
       return response.status(201).send();
   }
 
-  async edit(request:Request, response:Response){
+  async put(request:Request, response:Response){
     const id_Marca =request.params.id_Marca
     const marca=await knex('marcas').where('id_Marca',id_Marca).first();
 
     if (!marca){
       return response.status(401).json({error:"Edição não autorizada"})
     }
-      const {nome}=request.body;
-      await knex('marcas').where('id_Marca',id_Marca).update({nome});
+      const {n_marca}=request.body;
+      await knex('marcas').where('id_Marca',id_Marca).update({n_marca});
       return response.status(201).json({sucess:"Alteração realizada com sucesso"})
   }
 

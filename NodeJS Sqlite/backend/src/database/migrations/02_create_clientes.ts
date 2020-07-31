@@ -3,7 +3,7 @@ import Knex from 'knex';
 export async function up(knex:Knex){
   return knex.schema.createTable('clientes',table=>{
     table.increments('id_cliente').primary();
-    table.string('nome').notNullable();
+    table.string('n_cliente').notNullable();
   })
 
 }
