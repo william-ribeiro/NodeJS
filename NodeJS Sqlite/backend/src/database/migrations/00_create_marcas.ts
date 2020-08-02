@@ -5,7 +5,6 @@ export async function up(knex:Knex){
     table.increments('id_marca').primary();
     table.string('n_marca').notNullable();
   })
-
 }
 
 export async function down(knex:Knex){

@@ -15,7 +15,7 @@ class produtoController{
     const [id]=await knex('produtos')
       .insert({nome,marca_id,undmedida_id})
 
-    const produto =await knex('produtos')
+    const produto =await knex('produtos').where('id',id)
       .join('marcas','id_marca','=','produtos.marca_id')
       .join('undMedidas','id_undMedida','=','produtos.undmedida_id')
       .select('produtos.nome','marcas.n_marca','undMedidas.n_undMedida')
